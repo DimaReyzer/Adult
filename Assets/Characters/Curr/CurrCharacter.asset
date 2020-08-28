@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21bcba21c45792642bd7a0872909ca7d, type: 3}
+  m_Name: CurrCharacter
+  m_EditorClassIdentifier: 
+  firstName: "\u0443\u043A\u043F\u0443\u043A"
+  secondName: "\u0446\u043A23\u043A"
+  portrait: {fileID: 0}
+  male: 1
+  race: 1
+  characterClass: 2
+  phyStrength: 16
+  magStrength: 16
+  phyProtection: 16
+  magProtection: 16
+  vitality: 16
+  charisma: 16
+  agility: 16
+  intelligence: 16

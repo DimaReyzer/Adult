@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a14b0848926cdf44ab7561983cab1922, type: 3}
+  m_Name: TestScenario
+  m_EditorClassIdentifier: 
+  dialog:
+  - character: {fileID: 11400000, guid: 90cc2029307eccc4f8798a7aa922f239, type: 2}
+    emotion: Discouraged
+    message: "Oh... Hi! I'm sorry, I just wasn't ready to \nmeet you here."
+    pause: 
+    answers:
+    - text: So what about that potion?
+      scenario: {fileID: 0}
+  - character: {fileID: 11400000, guid: 90cc2029307eccc4f8798a7aa922f239, type: 2}
+    emotion: Quietly
+    message: "Well, I've decided to go to the neighboring \nKingdom for some elixir."
+    pause: 
+    answers:
+    - text: And you ran out of it?
+      scenario: {fileID: 0}
+  - character: {fileID: 11400000, guid: 90cc2029307eccc4f8798a7aa922f239, type: 2}
+    emotion: 
+    message: "It's just that mine is already over, so let \nme show it to you."
+    pause: Gets something
+    answers:
+    - text: '...'
+      scenario: {fileID: 0}
+  - character: {fileID: 11400000, guid: 90cc2029307eccc4f8798a7aa922f239, type: 2}
+    emotion: 
+    message: "(Shows an empty test tube) Here, I'm out \nof it."
+    pause: 
+    answers:
+    - text: '...'
+      scenario: {fileID: 0}
+  - character: {fileID: 11400000, guid: 90cc2029307eccc4f8798a7aa922f239, type: 2}
+    emotion: 
+    message: "So, can we go to this Kingdom and get a \ncouple of potions from there?"
+    pause: 
+    answers:
+    - text: "Yes of \u0441ource"
+      scenario: {fileID: 11400000, guid: 4ea907520608d834691ef1ffc073bd1d, type: 2}
+    - text: No thanks
+      scenario: {fileID: 0}
+  - character: {fileID: 11400000, guid: 90cc2029307eccc4f8798a7aa922f239, type: 2}
+    emotion: Disappointed
+    message: I'm sorry, but I was hoping for your help.
+    pause: 
+    answers:
+    - text: I'm sorry.
+      scenario: {fileID: 0}
