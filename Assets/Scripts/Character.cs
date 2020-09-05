@@ -29,4 +29,15 @@ public class Character : ScriptableObject
     public int charisma;
     public int agility;
     public int intelligence;
+    public List<SkillData> skills;
+    public void AddSkill(SkillData skill){
+        skills.Add(skill);
+    }
+    void OnEnable(){
+        Initialize();
+    }
+    void Initialize(){
+        skills.Clear();
+        Resources.Load<SkillsData>("Skills").GiveSkills(this);
+    }
 }

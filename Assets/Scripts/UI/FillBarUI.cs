@@ -15,12 +15,12 @@ public class FillBarUI : MonoBehaviour
     void OnEnable(){
         text = GetComponentInChildren<Text>();
         RT = GetComponent<RectTransform>();
-        width = RT.sizeDelta.x;
+        width = RT.rect.size.x;
     }
     void Update(){
         value = Mathf.Clamp(value,0,max);
         if(showMax){
-            text.text = max.ToString() + "/" + value.ToString();
+            text.text = value.ToString() + "/" + max.ToString();
         }else{
             text.text = value.ToString();
         }
