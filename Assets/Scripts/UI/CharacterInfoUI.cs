@@ -44,7 +44,7 @@ public class CharacterInfoUI : MonoBehaviour
         intelligence.text = character.intelligence.ToString();
         hp.showMax = true;
         hp.max = character.vitality * 12;
-        hp.value = hp.max;
+        hp.fillValue = hp.max;
     }
     public void Initialize(FightCharacter newCharacter,bool enemy)
     {
@@ -58,7 +58,7 @@ public class CharacterInfoUI : MonoBehaviour
         charisma.text = newCharacter.charisma.ToString();
         agility.text = newCharacter.agility.ToString();
         intelligence.text = newCharacter.intelligence.ToString();
-        hp.value = newCharacter.HP;
+        hp.fillValue = newCharacter.HP;
 
         if(enemy){
             hp.bar.GetComponent<Image>().color = new Color(0.75f,0.0f,0.0f,1.0f);

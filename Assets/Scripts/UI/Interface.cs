@@ -13,12 +13,14 @@ public class Interface : MonoBehaviour
         currInfo.gameObject.SetActive(false);
     }
     public void ShowCharacterInfo(FightCharacter character, bool open){
-        if(character != null)
-        {
-            currInfo.gameObject.SetActive(open);
-            currInfo.Initialize(character,character.enemy);
-        }else{
-            currInfo.gameObject.SetActive(false);
+        if(currInfo != null){
+            if(character != null)
+            {
+                currInfo.gameObject.SetActive(open);
+                currInfo.Initialize(character,character.enemy);
+            }else{
+                currInfo.gameObject.SetActive(false);
+            }
         }
     }
 }

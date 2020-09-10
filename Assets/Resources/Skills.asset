@@ -12,5 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d47f83428c27c449aaec4c562b8fd2e, type: 3}
   m_Name: Skills
   m_EditorClassIdentifier: 
+  phyAttack: {fileID: 11400000, guid: 0d2823258fc27944eaee358f024c273e, type: 2}
+  magAttack: {fileID: 11400000, guid: 952ef6e9ae94e594197d9f572920a8a0, type: 2}
   skills:
   - {fileID: 11400000, guid: 0bc2e28f528b2744c92db799b1e2f89e, type: 2}
+  - {fileID: 11400000, guid: ce54d4fdcbae273408db3502fb2769aa, type: 2}

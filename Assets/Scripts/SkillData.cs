@@ -19,6 +19,7 @@ public class SkillData : ScriptableObject
     }
     public Attitude attitude;
     public int countdown = 0;
+    public bool passMove = true;
     public float phyStrength;
     public float magStrength;
     public float phyProtection;

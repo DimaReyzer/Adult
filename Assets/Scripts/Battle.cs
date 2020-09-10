@@ -34,6 +34,9 @@ public class Battle : MonoBehaviour
     [SerializeField] private List<Character> startFriends;
     [SerializeField] private List<Character> startEnemies;
     void OnEnable(){
+        foreach(Transform child in transform){
+            Destroy(child.gameObject);
+        }
         AddFriends(startFriends);
         AddEnemies(startEnemies);
         SetCharactersPositions();
@@ -77,8 +80,8 @@ public class Battle : MonoBehaviour
     void CalculateHP(){
         EnemyHP.max = 0;
         FriendHP.max = 0;
-        FriendHP.value = 0;
-        EnemyHP.value = 0;
+        FriendHP.fillValue = 0;
+        EnemyHP.fillValue = 0;
         foreach(FightCharacter card in FightCharacters()){
             if(card.enemy){
                 EnemyHP.max += card.character.vitality * 12;
@@ -88,9 +91,9 @@ public class Battle : MonoBehaviour
         }
         foreach(FightCharacter card in FightCharacters()){
             if(card.enemy){
-                EnemyHP.value += card.HP;
+                EnemyHP.fillValue += card.HP;
             }else{
-                FriendHP.value += card.HP;
+                FriendHP.fillValue += card.HP;
             }
         }
     }
