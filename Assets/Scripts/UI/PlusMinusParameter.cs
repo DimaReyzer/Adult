@@ -39,11 +39,14 @@ public class PlusMinusParameter : MonoBehaviour
         }
         onClick.Invoke();
     }
-    private void Minus(){
+    public void Minus(){
         if(value > min)
         {
             value--;
         }
         onClick.Invoke();
+    }
+    public void SetMax(int count){
+        max = count;
     }
 }

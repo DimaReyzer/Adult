@@ -180,30 +180,30 @@ public class Battle : MonoBehaviour
             FightCharacter instChar = enemies[i];
             if(enemies.Count >= 4){
                 if(i == 0){
-                    instChar.pos = new Vector2(10,-3);
+                    instChar.pos = new Vector2(20,3);
                 }else if(i == 1){
-                    instChar.pos = new Vector2(10,3);
+                    instChar.pos = new Vector2(20,-3);
                 }else if(i == 2){
-                    instChar.pos = new Vector2(5,-7);
+                    instChar.pos = new Vector2(15,-7);
                 }else if(i == 3){
-                    instChar.pos = new Vector2(5,7);
+                    instChar.pos = new Vector2(15,7);
                 }
             }else if(enemies.Count == 3){
                 if(i == 0){
-                    instChar.pos = new Vector2(5,0);
+                    instChar.pos = new Vector2(17.5f,0);
                 }else if(i == 1){
-                    instChar.pos = new Vector2(5,-7);
+                    instChar.pos = new Vector2(15,-7);
                 }else if(i == 2){
-                    instChar.pos = new Vector2(5,7);
+                    instChar.pos = new Vector2(15,7);
                 }
             }else if(enemies.Count == 2){
                 if(i == 0){
-                    instChar.pos = new Vector2(5,3.5f);
+                    instChar.pos = new Vector2(15,-3.5f);
                 }else if(i == 1){
-                    instChar.pos = new Vector2(5,-3.5f);
+                    instChar.pos = new Vector2(15,3.5f);
                 }
             }else{
-                instChar.pos = new Vector2(5,0);
+                instChar.pos = new Vector2(15,0);
             }
         }
         //Friends
@@ -211,30 +211,30 @@ public class Battle : MonoBehaviour
             FightCharacter instChar = friends[i];
             if(friends.Count >= 4){
                 if(i == 0){
-                    instChar.pos = new Vector2(-10,-3);
+                    instChar.pos = new Vector2(-20,3);
                 }else if(i == 1){
-                    instChar.pos = new Vector2(-10,3);
+                    instChar.pos = new Vector2(-20,-3);
                 }else if(i == 2){
-                    instChar.pos = new Vector2(-5,-7);
+                    instChar.pos = new Vector2(-15,-7);
                 }else if(i == 3){
-                    instChar.pos = new Vector2(-5,7);
+                    instChar.pos = new Vector2(-15,7);
                 }
             }else if(friends.Count == 3){
                 if(i == 0){
-                    instChar.pos = new Vector2(-5,0);
+                    instChar.pos = new Vector2(-17.5f,0);
                 }else if(i == 1){
-                    instChar.pos = new Vector2(-5,-7);
+                    instChar.pos = new Vector2(-15,-7);
                 }else if(i == 2){
-                    instChar.pos = new Vector2(-5,7);
+                    instChar.pos = new Vector2(-15,7);
                 }
             }else if(friends.Count == 2){
                 if(i == 0){
-                    instChar.pos = new Vector2(-5,3.5f);
+                    instChar.pos = new Vector2(-15,-3.5f);
                 }else if(i == 1){
-                    instChar.pos = new Vector2(-5,-3.5f);
+                    instChar.pos = new Vector2(-15,3.5f);
                 }
             }else{
-                instChar.pos = new Vector2(-5,0);
+                instChar.pos = new Vector2(-15,0);
             }
         }
     }

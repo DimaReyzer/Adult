@@ -1,0 +1,4 @@
+<data>
+  <playerPortrait main="0" hair="1" eyes="0" brows="1" ear="0" nose="0" mouth="0">PlayerPortrait</playerPortrait>
+  <character firstName="First name" secondName="Second name" portrait="" fightExample="" male="false" race="human" characterClass="support" phyStrength="0" magStrength="0" phyProtection="0" magProtection="0" vitality="0" charisma="0" agility="0" intelligence="0">CurrCharacter</character>
+</data>

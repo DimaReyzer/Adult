@@ -6,7 +6,7 @@ using System;
 
 public class CreatingPersonUI : MonoBehaviour
 {
-    public Character currCharacter;
+    public PlayerCharacter currCharacter;
     public Text fname;
     public Text sName;
     public Slider gender;

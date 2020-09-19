@@ -56,16 +56,22 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Battle.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Castle.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\CreatingPersonUI.cs" />
      <Compile Include="Assets\Scripts\Dialog.cs" />
      <Compile Include="Assets\Scripts\FightCharacter.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Mob.cs" />
      <Compile Include="Assets\Scripts\NovellaCharacter.cs" />
      <Compile Include="Assets\Scripts\NovellaScenario.cs" />
+     <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
+     <Compile Include="Assets\Scripts\PlayerPortrait.cs" />
      <Compile Include="Assets\Scripts\SkillData.cs" />
      <Compile Include="Assets\Scripts\SkillsData.cs" />
      <Compile Include="Assets\Scripts\UI\CanvasUI.cs" />
+     <Compile Include="Assets\Scripts\UI\ChangeParameter.cs" />
      <Compile Include="Assets\Scripts\UI\CharacterInfoUI.cs" />
      <Compile Include="Assets\Scripts\UI\CounterUI.cs" />
      <Compile Include="Assets\Scripts\UI\FillBarUI.cs" />
@@ -74,6 +80,8 @@
      <Compile Include="Assets\Scripts\UI\PlusMinusParameter.cs" />
      <Compile Include="Assets\Scripts\UI\SkillsLayoutUI.cs" />
      <Compile Include="Assets\Scripts\UI\SkillUI.cs" />
+     <None Include="Assets\quickSave.xml" />
+     <None Include="Assets\Saves\quickSave.xml" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Дима/Documents/Adult/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

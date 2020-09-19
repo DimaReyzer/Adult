@@ -1,0 +1,18 @@
+<data>
+  <playerPortrait main="0" hair="1" eyes="0" brows="1" ear="0" nose="0" mouth="0">PlayerPortrait</playerPortrait>
+  <character>
+    <firstName>First name</firstName>
+    <secondName>Second name</secondName>
+    <male>false</male>
+    <race>human</race>
+    <characterClass>support</characterClass>
+    <phyStrength>0</phyStrength>
+    <magStrength>0</magStrength>
+    <characterClass>0</characterClass>
+    <magProtection>0</magProtection>
+    <vitality>0</vitality>
+    <charisma>0</charisma>
+    <agility>0</agility>
+    <intelligence>0</intelligence>
+  </character>
+</data>
