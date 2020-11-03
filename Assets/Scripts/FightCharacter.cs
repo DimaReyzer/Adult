@@ -221,16 +221,16 @@ public class FightCharacter : MonoBehaviour
                     points = points * 2;
                 }
 
-                int friendPower = battle.friends[i].phyStrength +
-                battle.friends[i].phyProtection + 
-                battle.friends[i].magStrength +
-                battle.friends[i].magProtection + 
-                battle.friends[i].vitality +
-                battle.friends[i].charisma + 
-                battle.friends[i].agility;
+                int friendPower = character.phyStrength +
+                character.phyProtection + 
+                character.magStrength +
+                character.magProtection + 
+                character.vitality +
+                character.charisma + 
+                character.agility;
                 
                 points += friendPower / 4;
-                points += battle.friends[i].intelligence * 2;
+                points += character.intelligence * 2;
             }
         }
         int target = 0;

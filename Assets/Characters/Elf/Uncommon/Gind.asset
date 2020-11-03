@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21bcba21c45792642bd7a0872909ca7d, type: 3}
+  m_Name: Gind
+  m_EditorClassIdentifier: 
+  firstName: Gind
+  secondName: Olster
+  portrait: {fileID: 21300000, guid: 8981fa5ff2d439b4ead6967eb1bab587, type: 3}
+  fightExample: {fileID: 21300000, guid: 97f5d55600a35fc42ad20589fd23563c, type: 3}
+  male: 1
+  race: 1
+  characterClass: 1
+  phyStrength: 35
+  magStrength: 31
+  phyProtection: 38
+  magProtection: 30
+  vitality: 48
+  charisma: 33
+  agility: 43
+  intelligence: 26
+  skills:
+  - {fileID: 11400000, guid: 0d2823258fc27944eaee358f024c273e, type: 2}
+  - {fileID: 11400000, guid: 952ef6e9ae94e594197d9f572920a8a0, type: 2}

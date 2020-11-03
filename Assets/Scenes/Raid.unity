@@ -1049,15 +1049,15 @@ MonoBehaviour:
   fightCharExample: {fileID: 2845176506360990468, guid: 883503c4073ded64e93d6e9ef25f0663,
     type: 3}
   startFriends:
+  - {fileID: 11400000, guid: c0683630f3ebb4e498b6db1299e87c68, type: 2}
+  - {fileID: 11400000, guid: d42ef1b423306a84ebd854d85d739395, type: 2}
   - {fileID: 11400000, guid: a326607c0aeda0340baa57aa816bed13, type: 2}
-  - {fileID: 11400000, guid: a326607c0aeda0340baa57aa816bed13, type: 2}
-  - {fileID: 11400000, guid: a6a0e940519f9ae419da3c56f6ede5ed, type: 2}
-  - {fileID: 11400000, guid: a6a0e940519f9ae419da3c56f6ede5ed, type: 2}
+  - {fileID: 11400000, guid: 3afc2a93cff64654aa28618a748c077f, type: 2}
   startEnemies:
-  - {fileID: 11400000, guid: a326607c0aeda0340baa57aa816bed13, type: 2}
-  - {fileID: 11400000, guid: a326607c0aeda0340baa57aa816bed13, type: 2}
-  - {fileID: 11400000, guid: a6a0e940519f9ae419da3c56f6ede5ed, type: 2}
-  - {fileID: 11400000, guid: a6a0e940519f9ae419da3c56f6ede5ed, type: 2}
+  - {fileID: 11400000, guid: 4f0c09f970cbd33429ebccb19d8fca69, type: 2}
+  - {fileID: 11400000, guid: cc73f738169b4ca41a8d689b078514f4, type: 2}
+  - {fileID: 11400000, guid: 78d102197bfa48a4cb32aa7fe3389f4a, type: 2}
+  - {fileID: 11400000, guid: 74bdaad1015fa774aaf18d003afb82a0, type: 2}
 --- !u!1 &1959070901
 GameObject:
   m_ObjectHideFlags: 0

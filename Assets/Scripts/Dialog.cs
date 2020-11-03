@@ -31,7 +31,7 @@ public class Dialog : MonoBehaviour
         }
     }
     private int page = -1;
-    private bool wait;
+    [SerializeField] private bool wait;
     private string locMessage;
     private bool printing;
     private Vector3 personPos;
@@ -42,6 +42,7 @@ public class Dialog : MonoBehaviour
     [SerializeField] private GameObject answers;
     [SerializeField] private Scrollbar scrollbar;
     [SerializeField] private ScrollRect scroll;
+    [SerializeField] private bool skip;
 
     void OnEnable(){
         Move();
@@ -52,6 +53,9 @@ public class Dialog : MonoBehaviour
     void Update(){
         if(personImage.rectTransform.position != personPos){
             personImage.rectTransform.position = Vector3.Lerp(personImage.rectTransform.position,personPos,0.0625f);
+        }
+        if(printing || wait){
+            if(Input.GetButtonUp("Jump")) skip = true;
         }
     }
 
@@ -84,14 +88,22 @@ public class Dialog : MonoBehaviour
         if(pageNumber > -1){
             wait = (scenario.dialog[pageNumber].pause == "") ? false : true;
             if(wait){ 
-                message.text = "(" + scenario.dialog[pageNumber].pause + ")";
-                foreach(Transform child in answers.transform){
-                    Destroy(child.gameObject);
-                }
-                yield return new WaitForSeconds(3);
-                foreach(Transform child in answers.transform){
-                    Destroy(child.gameObject);
-                }
+                    message.text = "(" + scenario.dialog[pageNumber].pause + ")";
+                    foreach(Transform child in answers.transform){
+                        Destroy(child.gameObject);
+                    }
+                    float time = 0;
+                    while(time < 3){
+                        if(skip) time = 3;
+                        yield return new WaitForSeconds(0.1f);
+                        time += 0.1f;
+                    }
+                    foreach(Transform child in answers.transform){
+                        Destroy(child.gameObject);
+                    }
+                    wait = false;
+                    skip = false;
+            
             }
         }
         pageNumber++;
@@ -132,11 +144,16 @@ public class Dialog : MonoBehaviour
         foreach (char letter in text)
         {
             printing = true;
-            yield return new WaitForSeconds(printingSpeed);
-            message.text += letter;
+            if(!skip){
+                yield return new WaitForSeconds(printingSpeed);
+                message.text += letter;
+            }else{
+                message.text = text;
+            }
         }
         InstAnswers();
         printing = false;
+        skip = false;
     }
 
     void EndDialog(){

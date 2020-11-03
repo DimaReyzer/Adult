@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21bcba21c45792642bd7a0872909ca7d, type: 3}
+  m_Name: Fiona
+  m_EditorClassIdentifier: 
+  firstName: Fiona
+  secondName: Libhert
+  portrait: {fileID: 21300000, guid: 5e7ebf3c97325f143944e0b8aeeb3669, type: 3}
+  fightExample: {fileID: 21300000, guid: a626922c02f67a946b5a332f66a0e80e, type: 3}
+  male: 0
+  race: 0
+  characterClass: 2
+  phyStrength: 15
+  magStrength: 9
+  phyProtection: 19
+  magProtection: 21
+  vitality: 8
+  charisma: 10
+  agility: 16
+  intelligence: 21
+  skills:
+  - {fileID: 11400000, guid: 0d2823258fc27944eaee358f024c273e, type: 2}
+  - {fileID: 11400000, guid: 952ef6e9ae94e594197d9f572920a8a0, type: 2}

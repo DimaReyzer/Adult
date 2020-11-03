@@ -137,7 +137,7 @@ MonoBehaviour:
   m_MinSize: {x: 685, y: 494}
   m_MaxSize: {x: 14006, y: 14044}
   vertical: 0
-  controlID: 13334
+  controlID: 2684
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,7 +162,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 13335
+  controlID: 2598
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 13293
+  controlID: 2599
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -406,9 +406,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 12f9ffff
-      m_LastClickedID: -1774
-      m_ExpandedIDs: f2faffff8efbfffffe2d00000c2e0000
+      m_SelectedIDs: f4f5ffff
+      m_LastClickedID: -2572
+      m_ExpandedIDs: 0cf6ffff8efbffff0a310000d23100001c340000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -468,9 +468,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.8232157, y: 2.3390164, z: -13.840246}
+    m_Target: {x: 519.1419, y: 267.54944, z: -163.95108}
     speed: 2
-    m_Value: {x: 3.8232157, y: 2.3390164, z: -13.840246}
+    m_Value: {x: 519.1419, y: 267.54944, z: -163.95108}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -503,9 +503,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 34.151752
+    m_Target: 531.9065
     speed: 2
-    m_Value: 34.151752
+    m_Value: 531.9065
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -594,20 +594,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Sprites/Player/Female
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 60
   m_LastFolders:
-  - Assets/Prefabs
-  m_LastFoldersGridSize: -1
+  - Assets/Sprites/Player/Female
+  m_LastFoldersGridSize: 60
   m_LastProjectPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\Adult"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 3a2a0000
-    m_LastClickedID: 10810
-    m_ExpandedIDs: 0000000032290000022a00008e2b000000ca9a3b
+    scrollPos: {x: 0, y: 407}
+    m_SelectedIDs: 842e0000
+    m_LastClickedID: 11908
+    m_ExpandedIDs: 00000000342900006c2900007a290000c2290000142a0000042b0000bc2b0000e22b0000bc2c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -635,7 +635,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000032290000022a00008e2b000000ca9a3b
+    m_ExpandedIDs: 00000000342900006c2900007a290000142a0000042b0000bc2b0000e22b0000bc2c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -688,7 +688,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 60
   m_DirectoriesAreaWidth: 198
 --- !u!114 &18
 MonoBehaviour:
@@ -713,7 +713,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 7.2000003
     y: 526.4
-    width: 1079
+    width: 1078
     height: 253
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &19
